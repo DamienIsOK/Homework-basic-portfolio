@@ -1,16 +1,20 @@
 /* Header section */
 #top {
 	height: 50px;
-	width: 850px;
+	width: 970px;
 	margin-left: 200px;
+
 }
 
 #nav {
 	float: right;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #696969;
+	word-spacing: 30px;
 	margin-top: 15px;
-	margin-right: 50px;
+	margin-left: 60px;
+
 }
 
 li {
@@ -24,6 +28,7 @@ li {
 	background: url('../images/cork-wallet.png') repeat center center;
 	border-top: 5px #A9A9A9 solid;
 	border-bottom: 9px #4aaaa5 solid;
+	height: 400px;
 
 }
 
@@ -37,19 +42,22 @@ li {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #ffffff;
 	text-align: center;
+
 }
 
 #profile-img {
 	float: left;
 	margin-right: 10px;
+		border: 1px solid black;
+
 }
 
 #section-title {
 	font-weight: bold;
 	font-size: 24px;
 	color: #4aaaa5;
-	width: 500px;
-	margin-bottom: 9px;
+	width: 625px;
+	margin-bottom: 15px;
 	border-bottom: 2px solid #A9A9A9;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -58,31 +66,35 @@ li {
 	padding-left: 10px;
 	width: 500px;
 	line-height: 1.5;
+
 }
 
 #bio-box {
-	width: 525px;
+	width: 650px;
 	margin-left: 200px;
 	padding-top: 15px;
 	padding-left: 15px;
 	padding-bottom: 15px;
 	background-color: #ffffff;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
+	display: inline-block;
 }
 
 #social-box {
 	width: 250px;
 	height: 100px;
-	float: right;
-	margin-right: 400px;
-	padding-top: 15px;
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 0px;
+	padding-top: 20px;
 	padding-left: 15px;
 	padding-bottom: 15px;
 	background-color: #ffffff;
 	font-weight: bold;
 	font-size: 20px;
 	color: #4aaaa5;
+	display: inline-block;
+
 }
 
 
