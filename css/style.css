@@ -103,8 +103,6 @@ li {
 aside {
 	float: left;
 	width: 270px;
-	margin-top: 20px;
-/*	padding-bottom: 20px;*/
 	border: 1px solid #A9A9A9;
 	background-color: #ffffff;
 	display: inline-block;
@@ -180,8 +178,32 @@ textarea {
 
 /*PORTFOLIO SECTION*/
 #portfolio-images {
-	/*border: 1px solid black;*/
-	width: 500px;
-	margin: 0 auto 0 auto;
+	border: 1px solid black;
+	/*	width: 500px;*/	
+	/*margin: 0 auto 0 auto;*/
+	display: inline-block;
 }
 
+/*.gallery-img {
+	background-color: blue;
+	display: inline-block;
+	z-index: 2;
+}*/
+
+.img-containers {
+	border: 1px solid #A9A9A9;
+    display: inline-block;
+}
+
+.img-labels {
+	position: absolute;
+	margin-top: 100px;
+	height: 30px;
+	width: 225px;
+	background-color: #4aaaa5;
+	padding-top: 10px;
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	text-align: center;
+}
