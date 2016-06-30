@@ -1,19 +1,39 @@
 body {
-	color: #A9A9A9;
+	background: url('../images/cork-wallet.png') repeat center center;
+
 }
 
 #wrapper {
 	width: 100%;
 }
 
+a {
+	color: #696969;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #4aaaa5;
+}
+
+a:active {
+	color: #696969;
+}
+
 /* HEADER SECTION */
 
 #header {
 	height: 50px;
-	width: 960px;
+	width: 100%;
 	background-color: #ffffff;
-	margin-left: 20%;
+	border-bottom: 5px #A9A9A9 solid;
+
 	}
+
+#inner-header {
+	width: 960px;
+	margin: auto;
+}
 
 #nav {
 	float: right;
@@ -30,17 +50,11 @@ li {
 }
 
 /* MAIN SECTION */
-
 #main {
 	padding-top: 50px;
-	background-color: yellow;
-	width: 1024;
+	width: 960px;
 	height: 750px;
-	margin-left: 50px;
-	margin: 0 auto;
-	background: url('../images/cork-wallet.png') repeat center center;
-	border-top: 5px #A9A9A9 solid;
-	border-bottom: 9px #4aaaa5 solid;
+	margin: auto;
 }
 
 
@@ -87,11 +101,9 @@ li {
 }
 
 
-#bio-box {
+#main-box {
 	width: 650px;
 	float: left;
-	margin-left: 20%;
-	margin-right: 38px;
 	margin-bottom: 50px;
 	padding: 15px 0px 25px 0px;
 	background-color: #ffffff;
@@ -101,7 +113,7 @@ li {
 }
 
 aside {
-	float: left;
+	float: right;
 	width: 270px;
 	border: 1px solid #A9A9A9;
 	background-color: #ffffff;
@@ -146,6 +158,8 @@ aside p {
 	font-size: 12px;
 	height: 60px;
 	background-color: #A9A9A9;
+	border-top: 9px #4aaaa5 solid;
+
 }
 
 /*CONTACT SECTION*/
@@ -176,23 +190,24 @@ textarea {
 	height: 50px;
 }
 
-/*PORTFOLIO SECTION*/
-#portfolio-images {
-	border: 1px solid black;
-	/*	width: 500px;*/	
-	/*margin: 0 auto 0 auto;*/
-	display: inline-block;
+input:hover, textarea:hover {
+	border: 1.5px solid #4aaaa5;
 }
 
-/*.gallery-img {
-	background-color: blue;
-	display: inline-block;
-	z-index: 2;
-}*/
+/*PORTFOLIO SECTION*/
 
 .img-containers {
-	border: 1px solid #A9A9A9;
     display: inline-block;
+    padding: 10px
+}
+
+#img-box {
+	padding-left: 5px;
+}
+
+#inner-img-box {
+	width: 500px;
+	margin: auto;
 }
 
 .img-labels {
