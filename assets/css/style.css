@@ -22,7 +22,7 @@ a:active {
 
 /* HEADER SECTION */
 
-#header {
+header {
 	height: 50px;
 	width: 100%;
 	background-color: #ffffff;
@@ -50,7 +50,7 @@ li {
 }
 
 /* MAIN SECTION */
-#main {
+main {
 	padding-top: 50px;
 	width: 960px;
 	height: 750px;
@@ -79,7 +79,7 @@ li {
 
 }
 
-#section-title {
+#main-title {
 	font-weight: bold;
 	font-size: 24px;
 	color: #4aaaa5;
@@ -101,7 +101,7 @@ li {
 }
 
 
-#main-box {
+#main-content-box {
 	width: 650px;
 	float: left;
 	margin-bottom: 50px;
@@ -145,21 +145,6 @@ aside p {
 
 #stackoverflow {
 	width: 70px
-}
-
-/* FOOTER SECTION */
-
-#foot {
-	padding-top: 20px;
-	clear: both;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	text-align: center;	
-	color: #ffffff;
-	font-size: 12px;
-	height: 60px;
-	background-color: #A9A9A9;
-	border-top: 9px #4aaaa5 solid;
-
 }
 
 /*CONTACT SECTION*/
@@ -221,4 +206,18 @@ input:hover, textarea:hover {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #ffffff;
 	text-align: center;
+}
+
+/* FOOTER SECTION */
+
+footer {
+	padding-top: 20px;
+	clear: both;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;	
+	color: #ffffff;
+	font-size: 12px;
+	height: 60px;
+	background-color: #A9A9A9;
+	border-top: 9px #4aaaa5 solid;
 }
